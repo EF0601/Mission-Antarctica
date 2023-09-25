@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISSION: ANTARCTICA</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div id="game">
+        <div id="gamePart1">
+            <h1>MISSION: ANTARCTICA</h1>
+            <li id="gamePart1Selection1">Press 1 to start.</li>
+            <li id="gamePart1Selection2">Press 2 to access help page.</li>
+            <li id="gamePart1Selection3">Press 3 to learn more about Antarctica.</li>
+            <li>Press ENTER to confirm selection.</li>
+            <li>Press ` at any time to reload frame.</li>
+            <br><br>
+        </div>
+        <div id="gamePart2">
+            <h1>Resources</h1>
+            <p>Antarctica is a hard place to survive in. As head of your expedition team, you must make the decision of
+                how much food to bring. There are three presets:
+            <ol>
+                <li>2000 units of rations (Easy mode, should have lots to spare at the end. However the score will have
+                    a multiplier of 0.9)</li>
+                <li>1250 units of rations (Normal mode, provides more of a challenge, and you might have to buy more at
+                    camps. Score multiplier of 1.)</li>
+                <li>750 units of rations (Hard mode, budget wisely. You definitely have to buy more at camps, or ration
+                    very well. Score multiplier of 1.3)</li>
+            </ol><br>
+            </p>
+            <li id="gamePart2Selection1">Press 1 for 2000 units of rations.</li>
+            <li id="gamePart2Selection2">Press 2 for 1250 units of rations.</li>
+            <li id="gamePart2Selection3">Press 3 for 750 units of rations.</li>
+            <li>Press ENTER to confirm selection.</li>
+            <br><br>
+        </div>
+        <!--This is the first part of the mission, going from Rothera Base, UK to MT Vinson Massif-->
+        <div id="gamePart3">
+            <h1>Expedition Part 1:</h1>
+            <h2>Rothera Base (United Kingdom) to Mount Vinson Massif</h2>
+            <p>As you make the journey, you have the options below:</p>
+            <li id="gamePart3Selection1">Press 1 to go the next five miles.</li>
+            <li id="gamePart3Selection2">Press 2 to rest (Gain morale)</li>
+            <li id="gamePart3Selection3">Press 3 to call S&R (search & rescue) and end the expedition here.</li>
+            <p>Here are your stats, including health, morale, and rations</p>
+        </div>
+        <div id="gameOver">
+            <h1>Your team passed out...</h1>
+            <p>S&R have been dispatched to provide medical care to your team. Your expedition ends here. <br>Press `
+                to restart.</p>
+            <!-- <div class="fiveColumn">
+                <div class="column">
+                    <h3>Health</h3>
+                    <p class="health">100</p>
+                </div>
+                <div class="column">
+                    <h3>Morale</h3>
+                    <p class="morale">100</p>
+                </div>
+                <div class="column">
+                    <h3>Rations</h3>
+                    <p class="rations">2000</p>
+                </div>
+                <div class="column">
+                    <h3>Distance to next</h3>
+                    <p>-</p>
+                </div>
+                <div class="column">
+                    <h3>Days passed</h3>
+                    <p class="days">0</p>
+                </div>
+            </div> -->
+        </div>
+        <div id="stats">
+            <div id="event"></div>
+            <div id="fiveColumn">
+                <div class="column">
+                    <h3>Health</h3>
+                    <p id="health">100</p>
+                </div>
+                <div class="column">
+                    <h3>Morale</h3>
+                    <p id="morale">100</p>
+                </div>
+                <div class="column">
+                    <h3>Rations</h3>
+                    <p id="rations">2000</p>
+                </div>
+                <div class="column">
+                    <h3>Distance to next</h3>
+                    <p id="distance">825</p>
+                </div>
+                <div class="column">
+                    <h3>Days passed</h3>
+                    <p id="days">0</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p><i>Please note this game is in early alpha stage!</i></p>
+        </footer>
+        <script src="./main.js"></script>
+</body>
+
+</html>
