@@ -45,6 +45,7 @@ footer{
 
 #gamePart2,
 #gamePart3,
+#gamePart4,
 #gameOver{
     font-size: 20px;
     display: none;
@@ -52,6 +53,6 @@ footer{
 
 #fiveColumn{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
     grid-template-rows: 100%;
 }

@@ -24,9 +24,150 @@
             font-family: orange-kid;
             font-size: 32px;
         }
+
+        #gamePlace {
+            width: 100%;
+            text-align: center;
+        }
+
+        #radio {
+            text-align: left;
+            color: white;
+            background-color: rgb(69, 65, 65);
+            padding: 10px;
+            font-size: 20px;
+            width: 100%;
+            height: 450px;
+        }
+
+        #musicGrid {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 25% 25% 25% 25%;
+        }
+
+        .audio {
+            font-size: smaller;
+            height: 60px;
+            padding: 5px;
+        }
+        .progress{
+            width: 100%;
+            height: 3px;
+            background-color: grey;
+        }
+        .progressBar{
+            width: 50%;
+            height: 100%;
+            background-color: black;
+        }
+        button{
+            background-color: rgb(168, 149, 149);
+            color: white;
+            border: none;
+            padding: 5px;
+            font-size: 10px;
+        }
     </style>
     <h1>Welcome to the official site to play MISSION: ANTARCTICA</h1>
-    <iframe src="./index.html" frameborder="0" width="750px" height="500px"></iframe>
+    <div id="gamePlace">
+        <iframe src="./index.html" frameborder="0" width="750px" height="500px"></iframe>
+    </div>
+    <div id="radio">
+        <h2>Music</h2>
+        <p>Choose from a variety of music we handmade ourselves! Completely optional, just builds the environment.
+        </p>
+        <div id="musicGrid">
+            <div class="audio">
+                <p title="By That_Piano_Kid">Moving Forward</p>
+                <audio src="">
+                    <source src="">
+                </audio>
+                <div class="progress">
+                    <div class="progressBar" id="music1"></div>
+                </div>
+                <button>Play</button>
+                <button>Pause</button>
+            </div>
+            <div class="audio">
+                <p>Going fast</p>
+                <audio src="">
+                    <source src="">
+                </audio>
+                <div class="progress">
+                    <div class="progressBar" id="music1"></div>
+                </div>
+                <button>Play</button>
+                <button>Pause</button>
+            </div>
+            <div class="audio">
+                <p>Moving Forward</p>
+                <audio src="">
+                    <source src="">
+                </audio>
+                <div class="progress">
+                    <div class="progressBar" id="music1"></div>
+                </div>
+                <button>Play</button>
+                <button>Pause</button>
+            </div>
+            <div class="audio">
+                <p>Moving Forward</p>
+                <audio src="">
+                    <source src="">
+                </audio>
+                <div class="progress">
+                    <div class="progressBar" id="music1"></div>
+                </div>
+                <button>Play</button>
+                <button>Pause</button>
+            </div>
+            <div class="audio">
+                <p>Moving Forward</p>
+                <audio src="">
+                    <source src="">
+                </audio>
+                <div class="progress">
+                    <div class="progressBar" id="music1"></div>
+                </div>
+                <button>Play</button>
+                <button>Pause</button>
+            </div>
+            <div class="audio">
+                <p>Moving Forward</p>
+                <audio src="">
+                    <source src="">
+                </audio>
+                <div class="progress">
+                    <div class="progressBar" id="music1"></div>
+                </div>
+                <button>Play</button>
+                <button>Pause</button>
+            </div>
+            <div class="audio">
+                <p>Moving Forward</p>
+                <audio src="">
+                    <source src="">
+                </audio>
+                <div class="progress">
+                    <div class="progressBar" id="music1"></div>
+                </div>
+                <button>Play</button>
+                <button>Pause</button>
+            </div>
+            <div class="audio">
+                <p>Moving Forward</p>
+                <audio src="">
+                    <source src="">
+                </audio>
+                <div class="progress">
+                    <div class="progressBar" id="music1"></div>
+                </div>
+                <button>Play</button>
+                <button>Pause</button>
+            </div>
+        </div>
+    </div>
     <h1>To play, click in the iframe first!</h1>
 </body>
 
